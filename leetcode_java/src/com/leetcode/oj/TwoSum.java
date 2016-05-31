@@ -1,6 +1,7 @@
 package com.leetcode.oj;
 
 import java.util.HashMap;
+import java.util.concurrent.ConcurrentHashMap;
 
 public class TwoSum {
 
@@ -17,7 +18,6 @@ public class TwoSum {
       
   public static void main(String[] args) {
     // TODO Auto-generated method stub
-
   }
 
 }
