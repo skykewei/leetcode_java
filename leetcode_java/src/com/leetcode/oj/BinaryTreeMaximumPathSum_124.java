@@ -1,6 +1,6 @@
 package com.leetcode.oj;
 
-public class MaxPathSum_124 {
+public class BinaryTreeMaximumPathSum_124 {
 
   public class TreeNode {
     int val;
