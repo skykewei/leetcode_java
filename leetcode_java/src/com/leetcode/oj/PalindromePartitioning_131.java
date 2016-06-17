@@ -3,6 +3,7 @@ package com.leetcode.oj;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Queue;
 
 public class PalindromePartitioning_131 {
 
@@ -51,6 +52,7 @@ public class PalindromePartitioning_131 {
     String s = "aab";
     List<List<String>> ret = new PalindromePartitioning_131().partition(s);
     System.out.println(ret.toString());
+    Queue<E>
   }
 
 }
