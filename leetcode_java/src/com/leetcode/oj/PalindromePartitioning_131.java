@@ -52,7 +52,6 @@ public class PalindromePartitioning_131 {
     String s = "aab";
     List<List<String>> ret = new PalindromePartitioning_131().partition(s);
     System.out.println(ret.toString());
-    Queue<E>
   }
 
 }

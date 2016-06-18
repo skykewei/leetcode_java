@@ -70,7 +70,7 @@ public class LRUCache {
       }
       Entry<Integer, Integer> newNode = new Entry<Integer, Integer>(key, value);
       linkFirst(newNode);
-      cache.put(key, last);
+      cache.put(key, first);
     } 
   }
 
