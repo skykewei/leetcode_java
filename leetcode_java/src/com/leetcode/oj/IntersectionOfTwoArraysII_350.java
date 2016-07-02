@@ -5,8 +5,8 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Vector;
-
-public class Intersect_350 {
+// 350 https://leetcode.com/problems/intersection-of-two-arrays-ii/
+public class IntersectionOfTwoArraysII_350 {
 
   public int[] intersect(int[] nums1,int[] nums2){
     if(nums1.length==0||nums2.length==0){
