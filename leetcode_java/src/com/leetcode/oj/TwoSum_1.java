@@ -2,8 +2,8 @@ package com.leetcode.oj;
 
 import java.util.HashMap;
 import java.util.concurrent.ConcurrentHashMap;
-
-public class TwoSum {
+// 1 https://leetcode.com/problems/two-sum/
+public class TwoSum_1 {
 
   public int[] twoSum(int[] num, int target){
     HashMap<Integer, Integer> numMap = new HashMap<Integer,Integer>();
