@@ -3,8 +3,8 @@ package com.leetcode.oj;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Stack;
-
-public class IsValid_20 {
+// 20 https://leetcode.com/problems/valid-parentheses/
+public class ValidParentheses_20 {
 
   private static final Map<Character, Character> mp = new HashMap<Character, Character>() {
     {
