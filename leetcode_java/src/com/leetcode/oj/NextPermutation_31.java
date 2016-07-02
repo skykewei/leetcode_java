@@ -9,12 +9,12 @@ public class NextPermutation_31 {
       return;
     }
     int partitionIndex = nums.length - 2;
-    while (nums[partitionIndex] >= nums[partitionIndex + 1]) {
+    while (partitionIndex>=0&&nums[partitionIndex] >= nums[partitionIndex + 1]) {
       partitionIndex--;
     }
     if (partitionIndex >= 0) {
       int changeIndex = nums.length - 1;
-      while (nums[changeIndex] < nums[partitionIndex]) {
+      while (nums[changeIndex] <= nums[partitionIndex]) {
         changeIndex--;
       }
       int tmp = nums[partitionIndex];
