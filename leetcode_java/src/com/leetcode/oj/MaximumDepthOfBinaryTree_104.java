@@ -1,6 +1,6 @@
 package com.leetcode.oj;
-
-public class MaxDepth_104 {
+//104 https://leetcode.com/problems/maximum-depth-of-binary-tree/
+public class MaximumDepthOfBinaryTree_104 {
 
   public class TreeNode{
     int val;
