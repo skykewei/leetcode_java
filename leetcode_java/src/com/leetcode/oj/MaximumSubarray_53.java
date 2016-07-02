@@ -1,8 +1,6 @@
 package com.leetcode.oj;
-
-import java.util.function.IntPredicate;
-
-public class MaxSubArray_53 {
+//53 https://leetcode.com/problems/maximum-subarray/
+public class MaximumSubarray_53 {
 
   public int maxSubArray(int[] nums){
     if(nums==null||nums.length==0){
