@@ -1,6 +1,6 @@
 package com.leetcode.oj;
-
-public class IsPalindrome_9 {
+// 9 https://leetcode.com/problems/palindrome-number/
+public class PalindromeNumber_9 {
 
   public boolean isPalindrome(int x){
     if(x<0){
