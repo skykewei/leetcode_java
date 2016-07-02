@@ -1,6 +1,6 @@
 package com.leetcode.oj;
-
-public class LongestPalindrome_5 {
+// 5 https://leetcode.com/problems/longest-palindromic-substring/
+public class LongestPalindromicSubstring_5 {
 
   public String longestPalindrome(String s){
     if(s==null){
@@ -32,7 +32,7 @@ public class LongestPalindrome_5 {
   }
   public static void main(String[] args) {
     // TODO Auto-generated method stub
-    System.out.println(new LongestPalindrome_5().longestPalindrome("abcbc"));
+    System.out.println(new LongestPalindromicSubstring_5().longestPalindrome("abcbc"));
   }
 
 }
