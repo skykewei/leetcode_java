@@ -1,8 +1,6 @@
 package com.leetcode.oj;
-
-import java.awt.List;
-
-public class MergeTwoLists_21 {
+// 21 https://leetcode.com/problems/merge-two-sorted-lists/
+public class MergeTwoSortedLists_21 {
 
   public class ListNode{
     int val;
