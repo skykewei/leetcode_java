@@ -1,6 +1,6 @@
 package com.leetcode.oj;
-
-public class IsBalanced_110 {
+//110 https://leetcode.com/problems/balanced-binary-tree/
+public class BalancedBinaryTree_110 {
 
   public class TreeNode{
     int val;
