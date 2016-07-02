@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
-public class SpiralOrder_54 {
+// 54 https://leetcode.com/problems/spiral-matrix/
+public class SpiralMatrix_54 {
 
   private Map<Character, Integer> map = new HashMap<Character, Integer>() {
     {
@@ -66,7 +66,7 @@ public class SpiralOrder_54 {
   public static void main(String[] args) {
     // TODO Auto-generated method stub
     int[][] ma = new int[][] {{3}, {2}};
-    new SpiralOrder_54().spiralOrder(ma);
+    new SpiralMatrix_54().spiralOrder(ma);
   }
 
 }
