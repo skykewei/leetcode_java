@@ -1,10 +1,10 @@
 package com.leetcode.oj;
 
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-public class LengthOfLongestSubstring_3 {
+// 3 https://leetcode.com/problems/longest-substring-without-repeating-characters/
+public class LongestSubstringWithoutRepeatingCharacters_3 {
 
   public int lengthOfLongestSubstring(String s){
     
@@ -43,7 +43,7 @@ public class LengthOfLongestSubstring_3 {
     // TODO Auto-generated method stub
     String string="abcabab";
    
-    System.out.println(new LengthOfLongestSubstring_3().lengthOfLongestSubstring(string));
+    System.out.println(new LongestSubstringWithoutRepeatingCharacters_3().lengthOfLongestSubstring(string));
   }
 
 }
