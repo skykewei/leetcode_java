@@ -3,8 +3,8 @@ package com.leetcode.oj;
 import java.util.HashMap;
 
 
-// https://leetcode.com/problems/lru-cache/
-public class LRUCache {
+//146 https://leetcode.com/problems/lru-cache/
+public class LRUCache_146 {
 
   /**
    * cache
@@ -30,7 +30,7 @@ public class LRUCache {
    */
   transient CacheNode<Entry<Integer, Integer>> last;
 
-  public LRUCache(int capacity) {
+  public LRUCache_146(int capacity) {
     if (capacity <= 0) {
       throw new IllegalArgumentException("capacity must be positive");
     }
