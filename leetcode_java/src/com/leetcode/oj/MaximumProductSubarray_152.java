@@ -1,6 +1,6 @@
 package com.leetcode.oj;
-
-public class MaxProduct_152 {
+// 152 https://leetcode.com/problems/maximum-product-subarray/
+public class MaximumProductSubarray_152 {
 
   public int maxProduct(int[] nums){
     if(nums==null||nums.length==0){
