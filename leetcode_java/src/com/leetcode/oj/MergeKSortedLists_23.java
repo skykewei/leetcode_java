@@ -2,10 +2,9 @@ package com.leetcode.oj;
 
 import java.util.Comparator;
 import java.util.PriorityQueue;
-import java.util.Queue;
 import java.util.TreeMap;
-
-public class MergeKLists_23 {
+// 23 https://leetcode.com/problems/merge-k-sorted-lists/
+public class MergeKSortedLists_23 {
 
   public class ListNode {
     int val;
@@ -109,7 +108,7 @@ public class MergeKLists_23 {
   
   public static void main(String[] args) {
     // TODO Auto-generated method stub
-    System.out.println(new MergeKLists_23().mergeKLists(null));
+    System.out.println(new MergeKSortedLists_23().mergeKLists(null));
   }
 
 }
